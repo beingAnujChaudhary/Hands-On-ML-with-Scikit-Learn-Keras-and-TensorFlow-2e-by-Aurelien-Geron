@@ -5,7 +5,6 @@
 
 ---
 
-
 <p align="center">
   <img src="https://img.shields.io/badge/Machine%20Learning-Hands--On-blue?style=for-the-badge" />
 </p>
@@ -18,17 +17,19 @@
 
 ## 📌 Overview
 
-This repository documents my complete learning journey through **Hands-On Machine Learning (2nd Edition)** by *Aurélien Géron*.
+This repository documents my **complete learning journey** through
+**Hands-On Machine Learning (2nd Edition)** by *Aurélien Géron*.
 
-It contains:
+It includes:
 
 * 📘 Clean, structured **chapter-wise notebooks**
-* 🎯 **Exercise solutions** with explanations
-* 🧪 **Experiments** & personal insights
-* 📚 Summaries, important formulas, and visual notes
-* 🚀 TensorFlow/Keras hands-on implementations
+* ✏️ **Exercise solutions** with clear explanations
+* 🧪 **Experiments, insights & intuition-building notes**
+* 📚 Important formulas, visual guides & summaries
+* 🚀 TensorFlow/Keras **hands-on implementations**
 
-The goal is to build strong intuition and practical skills across **Machine Learning** and **Deep Learning**.
+The objective is to build strong **practical** and **intuitive** understanding across both
+**Machine Learning** and **Deep Learning**.
 
 ---
 
@@ -46,7 +47,7 @@ The goal is to build strong intuition and practical skills across **Machine Lear
 ## 📚 Table of Contents
 
 * [Overview](#-overview)
-* [Chapter Progress](#-chapter-progress)
+* [Chapters Covered](#-chapters-covered)
 * [Repository Structure](#-repository-structure)
 * [Tools & Technologies](#-tools--technologies)
 * [Goals](#-goals)
@@ -55,43 +56,78 @@ The goal is to build strong intuition and practical skills across **Machine Lear
 
 ---
 
-## 📈 Chapter Progress
+## 📈 Chapters Covered
 
-*(Automatic progress badges — update as you go!)*
+### **Part I — The Fundamentals of Machine Learning**
 
-| Chapter | Topic                          | Status         |
-| ------- | ------------------------------ | -------------- |
-| 1       | The Machine Learning Landscape | 🟢 Completed   |
-| 2       | End-to-End ML Project          | 🟡 In Progress |
-| 3       | Classification                 | ⚪ Not Started  |
-| 4       | Training Models                | ⚪ Not Started  |
-| 5       | SVMs                           | ⚪ Not Started  |
-| 6       | Decision Trees                 | ⚪ Not Started  |
-| 7       | Ensemble Learning              | ⚪ Not Started  |
-| 8       | Dimensionality Reduction       | ⚪ Not Started  |
-| 9       | Unsupervised Learning          | ⚪ Not Started  |
-| 10      | Neural Nets with Keras         | ⚪ Not Started  |
-| 11      | Training Deep Neural Nets      | ⚪ Not Started  |
-| 12      | Custom Models & Training       | ⚪ Not Started  |
-| 13      | TF Functions & Graphs          | ⚪ Not Started  |
-| 14      | CNNs                           | ⚪ Not Started  |
-| 15      | RNNs                           | ⚪ Not Started  |
-| 16      | Autoencoders & GANs            | ⚪ Not Started  |
-| 17      | Deployment                     | ⚪ Not Started  |
+**Chapter 1 — The Machine Learning Landscape**
+*Types of ML, challenges, validation, model selection, hyperparameter tuning.*
 
-You can update the status icons:
+**Chapter 2 — End-to-End Machine Learning Project**
+*Exploration, cleaning, pipelines, model training, evaluation, fine-tuning.*
 
-* 🟢 Completed
-* 🟡 In Progress
-* ⚪ Not Started
+**Chapter 3 — Classification**
+*MNIST, confusion matrix, precision/recall, ROC, multiclass & multilabel.*
+
+**Chapter 4 — Training Models**
+*Linear/Polynomial regression, GD variants, regularization, logistic regression.*
+
+**Chapter 5 — Support Vector Machines**
+*Linear/Nonlinear SVMs, RBF/Polynomial kernels, SVM regression.*
+
+**Chapter 6 — Decision Trees**
+*CART, entropy/Gini, probabilities, regularization.*
+
+**Chapter 7 — Ensemble Learning & Random Forests**
+*Bagging, Pasting, Random Forests, Boosting (AdaBoost, Gradient Boosting), Stacking.*
+
+**Chapter 8 — Dimensionality Reduction**
+*PCA, Kernel PCA, Manifold Learning, LLE, curse of dimensionality.*
+
+**Chapter 9 — Unsupervised Learning Techniques**
+*K-Means, DBSCAN, GMMs, clustering, anomaly detection.*
+
+---
+
+### **Part II — Neural Networks & Deep Learning**
+
+**Chapter 10 — Introduction to ANN with Keras**
+*Neurons, MLPs, Sequential/Functional API.*
+
+**Chapter 11 — Training Deep Neural Networks**
+*Vanishing gradients, BatchNorm, transfer learning, optimizers.*
+
+**Chapter 12 — Custom Models & Training with TensorFlow**
+*Tensors, custom layers/losses, custom training loops, `@tf.function`.*
+
+**Chapter 13 — Loading & Preprocessing Data (TF Data API)**
+*Datasets, TFRecords, preprocessing layers.*
+
+**Chapter 14 — Deep Computer Vision with CNNs**
+*LeNet, AlexNet, VGG, ResNet, Inception, YOLO, object detection.*
+
+**Chapter 15 — Processing Sequences Using RNNs & CNNs**
+*Time series, RNNs, LSTMs, GRUs, handling long sequences.*
+
+**Chapter 16 — NLP with RNNs & Attention**
+*Char-RNN, Encoder–Decoder, Attention, Transformers.*
+
+**Chapter 17 — Representation Learning, Autoencoders & GANs**
+*Stacked Autoencoders, VAEs, GANs, image generation.*
+
+**Chapter 18 — Reinforcement Learning**
+*MDPs, Policy Gradients, Q-Learning, Deep Q-Networks.*
+
+**Chapter 19 — Training & Deploying Models at Scale**
+*TF Serving, TFLite, distributed training, GPUs & scaling.*
 
 ---
 
 ## 📁 Repository Structure
 
-```
-📦 hands-on-ml-journey
- ┣ 📁 01_Fundamentals
+```text
+hands-on-ml-journey
+ ┣ 📁 01_ML_Landscape
  ┣ 📁 02_End_to_End_Project
  ┣ 📁 03_Classification
  ┣ 📁 04_Training_Models
@@ -100,58 +136,59 @@ You can update the status icons:
  ┣ 📁 07_Ensemble_Learning
  ┣ 📁 08_Dimensionality_Reduction
  ┣ 📁 09_Unsupervised_Learning
- ┣ 📁 10_Neural_Networks
+ ┣ 📁 10_ANN_with_Keras
  ┣ 📁 11_Training_Deep_NNs
- ┣ 📁 12_Custom_Training
- ┣ 📁 13_TensorFlow
- ┣ 📁 14_CNNs
- ┣ 📁 15_RNNs
- ┣ 📁 16_Autoencoders_GANs
- ┗ 📁 Notes_And_Insights
+ ┣ 📁 12_Custom_Training_TF
+ ┣ 📁 13_Loading_Preprocessing_TF
+ ┣ 📁 14_Deep_Computer_Vision
+ ┣ 📁 15_Processing_Sequences
+ ┣ 📁 16_NLP_RNN_Attention
+ ┣ 📁 17_Autoencoders_GANs
+ ┣ 📁 18_Reinforcement_Learning
+ ┗ 📁 19_Training_Deploying_Scale
 ```
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-* **Python 3.x**
-* **NumPy, Pandas, Matplotlib, Seaborn**
-* **Scikit-Learn**
-* **TensorFlow / Keras**
-* **Jupyter Notebook / Google Colab**
-* **MLflow / Weights & Biases (optional tracking)**
+* Python 3.x
+* NumPy, Pandas, Matplotlib, Seaborn
+* Scikit-Learn
+* TensorFlow & Keras
+* Jupyter Notebook / Google Colab
 
 ---
 
 ## 🎯 Goals
 
-* Build deep intuition for ML & DL algorithms
-* Strengthen coding skills through practical implementation
-* Develop clear, reproducible ML pipelines
-* Create a reference repository for future ML projects
-* Achieve mastery through hands-on exercises & experiments
+* Build **deep intuition** for ML/DL algorithms
+* Strengthen coding skills via **hands-on practice**
+* Develop clean, reproducible **ML pipelines**
+* Create a **reference repository** for real-world applications
+* Master concepts through structured exercises & experiments
 
 ---
 
 ## 💡 How to Use This Repo
 
-1. Start from the chapter folder you want to explore.
-2. Open the Jupyter notebook (`.ipynb`) or Python script.
-3. Read the notes + run the code cells.
-4. Modify parameters, experiment, and observe results.
-5. Check the **Notes & Insights** folder for extra intuition.
+1. Open the chapter you want to learn.
+2. Run the corresponding notebook (`.ipynb`).
+3. Explore the notes, explanations, and visualizations.
+4. Experiment by modifying parameters and observing outcomes.
+5. Check the *Notes & Insights* section for additional intuition.
 
 ---
 
 ## 🙏 Acknowledgements
 
-Special thanks to **Aurélien Géron** for creating one of the most practical ML books available.
-This repository is purely for **learning & practice**.
+Special thanks to **Aurélien Géron** for writing one of the most clear, practical, and impactful books on Machine Learning & Deep Learning.
+This repository is created solely for **learning and personal growth**.
 
 ---
 
 ## ⭐ Support
 
-If you find this useful, consider starring ⭐ the repository to support my ML learning journey!
+If you find this repository helpful, please consider **starring ⭐ it** to support my learning journey!
 
 ---
