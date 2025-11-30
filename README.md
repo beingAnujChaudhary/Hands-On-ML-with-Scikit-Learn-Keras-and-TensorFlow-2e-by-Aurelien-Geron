@@ -5,8 +5,9 @@
 
 ---
 
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/github/explore/main/topics/machine-learning/machine-learning.png" width="120" />
+  <img src="https://img.shields.io/badge/Machine%20Learning-Hands--On-blue?style=for-the-badge" />
 </p>
 
 <p align="center">
